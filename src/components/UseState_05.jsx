@@ -14,6 +14,17 @@ export default function () {
         <>
             <p>Valor: {valor}</p>
             <UseState_05a funcao={atualizar}/>
+            <hr />
+
+
+            <div className="exerc">
+                <hr />
+                <p>Criar um componente que vai apresentar um useState (valor)</p>
+                <p>
+                    Criar outro componente, a ser apresentado dentro do componente anterior , que vai atualiar o useState do componente "pai".
+                </p>
+                <hr />
+            </div>
         </>
     )
 }

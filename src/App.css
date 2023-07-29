@@ -1,0 +1,17 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    color: #0059ff;
+}
+
+button {
+    background-color: gray;
+}
+
+.exerc {
+    margin-top: 70px;
+    color: rgb(7, 211, 41);
+}
