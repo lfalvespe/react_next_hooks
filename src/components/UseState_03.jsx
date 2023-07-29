@@ -9,20 +9,31 @@ export default function () {
     {
         setValor1(v1=> v1+1)
     }
+    function diminuir1()
+    {
+        setValor1(v1=> v1-1)
+    }
 
     function aumentar2()
     {
         setValor2(v2=> v2+1)
     }
-
+    function diminuir2()
+    {
+        setValor2(v2=> v2-1)
+    }
     return(
         <>
-            <p>Valor: {valor1}</p>
-            <p>Valor: {valor2}</p>
-
+            <p>Valor 1: {valor1}</p>
             <p>
-                <button onClick={aumentar1}>Aumentar 1</button>
-                <button onClick={aumentar2}>aumentar 2</button>
+                <button onClick={diminuir1}>-</button>
+                <button onClick={aumentar1}>+</button>
+            </p>
+
+            <p>Valor 2: {valor2}</p>
+            <p>
+                <button onClick={diminuir2}>-</button>
+                <button onClick={aumentar2}>+</button>
             </p>
 
             <hr />
