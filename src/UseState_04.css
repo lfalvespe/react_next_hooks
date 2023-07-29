@@ -1,0 +1,6 @@
+.layout {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 10px;
+    justify-content:space-between
+}
