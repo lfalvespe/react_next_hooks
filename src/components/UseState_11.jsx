@@ -6,15 +6,15 @@ import '../UseState_11.css'
 export default function () {
 
     const [ligado, setLigado] = useState(true)
-    const class1 = 'paragrafo'
-    const class2 = 'paragrafo destaque'
+    const class1 = 'destaque1'
+    const class2 = 'destaque2'
 
     return(
         <>
             <h3>Condicional Rendering: <span style={{color:"yellow"}}>Change CSS class</span></h3>
             <hr />
 
-            <p className={ligado ? class1 : class2}>
+            <p className={`paragrafo ${ligado ? class1 : class2}`}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati tempora quod sunt incidunt ut deleniti explicabo perspiciatis tenetur modi, nemo velit quae ea esse! Incidunt, nemo. Similique officiis tenetur itaque.
             </p>
 
