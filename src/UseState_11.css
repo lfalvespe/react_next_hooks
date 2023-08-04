@@ -4,6 +4,7 @@
     box-shadow: 1px 1px 3px #fff;
 }
 
-.classUm {
+.destaque {
     background-color: blue;
+    text-shadow: 1px 1px 2px #00000042;
 }
