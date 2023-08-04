@@ -12,7 +12,8 @@ import './App.css'
 // import HookState_08 from "./components/UseState_08";
 // import HookState_09 from "./components/UseState_09";
 // import HookState_10 from "./components/UseState_10";
-import HookState_11 from "./components/UseState_11";
+// import HookState_11 from "./components/UseState_11";
+import HookState_12 from "./components/UseState_12";
 
 export default function () {
     return(
@@ -22,7 +23,7 @@ export default function () {
             </header>
             <hr />
             
-            <HookState_11 />
+            <HookState_12 />
         </>
     )
 }
